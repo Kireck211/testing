@@ -23,5 +23,9 @@
         "moduleDirectory": ["node_modules", "src/"]
       }
     }
+  },
+  "plugins": ["jest"],
+  "env": {
+    "jest": true
   }
 }
